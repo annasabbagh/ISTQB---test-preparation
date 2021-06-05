@@ -1,0 +1,34 @@
+:root {
+  --main-font: "Montserrat", sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+}
+body {
+  font-family: var(--main-font);
+  background-color: rgb(19, 20, 26);
+  color: rgb(176, 194, 209);
+  letter-spacing: 0.05em;
+}
+.container {
+  padding: 20px 50px;
+  margin: 30px auto;
+}
+
+a {
+  text-decoration: none;
+
+  color: rgb(25, 115, 250);
+}
+
+h1 {
+  color: yellow;
+  padding: 30px;
+}
+
+h3 {
+  margin-bottom: 15px;
+}
